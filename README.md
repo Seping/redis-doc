@@ -3,10 +3,12 @@
 ## Clients 客户端
 
 All clients are listed in the `clients.json` file.
-`clients.json` 文件列出了所有的客户端。
 Each key in the JSON object represents a single client library.
-JSON对象的每个key代表着单个客户端库。
 For example:
+
+
+`clients.json` 文件列出了所有的客户端。
+JSON对象的每个key代表着单个客户端库。
 例如：
 
 ```
