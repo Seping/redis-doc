@@ -1,32 +1,42 @@
 # Redis documentation
 
-## Clients
+## Clients 客户端
 
 All clients are listed in the `clients.json` file.
+`clients.json` 文件列出了所有的客户端。
 Each key in the JSON object represents a single client library.
+JSON对象的每个key代表着单个客户端库。
 For example:
+例如：
 
 ```
 "Rediska": {
 
   # A programming language should be specified.
+  # 应指明使用的编程语言。
   "language": "PHP",
 
   # If the project has a website of its own, put it here.
+  # 如果项目有其网站，在此列出。
   # Otherwise, lose the "url" key.
+  # 没有则不要列出“url”这项。
   "url": "http://rediska.geometria-lab.net",
 
   # A URL pointing to the repository where users can
   # find the code.
+  # 一个指向源代码库的URL。
   "repository": "http://github.com/Shumkov/Rediska",
 
   # A short, free-text description of the client.
   # Should be objective. The goal is to help users
   # choose the correct client they need.
+  # 一段简短的、自由发挥的客户端描述。
+  # 应保持客观。目的是为了帮助用户选择他们需要的客户端。
   "description": "A PHP client",
 
   # An array of Twitter usernames for the authors
   # and maintainers of the library.
+  # 一个数组，其中为库的作者和维护者的Twitter用户名。
   "authors": ["shumkov"]
 
 }
